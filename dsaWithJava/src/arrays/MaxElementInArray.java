@@ -1,5 +1,7 @@
 package arrays;
 
+//Write a program to find the maximum element in an array
+
 //This class contains a method to find the maximum element in an array.
 public class MaxElementInArray {
 	
