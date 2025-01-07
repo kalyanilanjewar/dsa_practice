@@ -80,6 +80,12 @@ public class MinMaxFinderUsingTournamentMethod {
 		return minmax;
 	}
 	
+	/**
+     * The main method to execute the program.
+     * It initializes an array and finds the minimum and maximum elements in it using the tournament method.
+     *
+     * @param args Command line arguments (not used).
+     */
 	public static void main(String[] args)
 	{
 		int arr[] = {89, 35, 78, 123, 89, 24, 91, 767};
