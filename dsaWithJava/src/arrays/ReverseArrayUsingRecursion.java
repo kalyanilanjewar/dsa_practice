@@ -46,6 +46,8 @@ public class ReverseArrayUsingRecursion {
 		
 		reverseArray(arr, sizeOfArray); //call the function to reverse the array
 		System.out.println("Reversed Array: "+Arrays.toString(arr)); //print the reversed array
+		
+		sc.close(); //close the scanner object to avoid resource leak
 	}
 }
 
