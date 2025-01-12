@@ -28,6 +28,7 @@ class ChocolateDistribution {
         return minDiff;
     }
 
+    // main function
     public static void main(String[] args) {
         int[] arr = {7, 3, 2, 4, 9, 12, 56};
         int m = 3;
