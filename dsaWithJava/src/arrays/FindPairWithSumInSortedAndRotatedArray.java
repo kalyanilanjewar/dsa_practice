@@ -17,6 +17,7 @@ public class FindPairWithSumInSortedAndRotatedArray {
 			//check if the complement exists in the set
 			if(set.contains(complement))
 			{
+				System.out.println("Pair with given sum "+ target + " is (" + arr[i] + ", "+ complement + ")");
 				return true;
 			}
 			
@@ -33,6 +34,7 @@ public class FindPairWithSumInSortedAndRotatedArray {
 		int[] arr = {11, 15, 6, 8, 9, 10};
 		int target = 16; // 11 + 5 = 16(sum of two pair)
 		
+		//check if the pair exists
 		if(pairInSortedRotated(arr, target))
 		{
 			System.out.println("true -> Array has two elements with sum 16");
@@ -47,6 +49,7 @@ public class FindPairWithSumInSortedAndRotatedArray {
 
 
 //OUTPUT:
+//Pair with given sum 16 is (10, 6)
 //true -> Array has two elements with sum 16
 
 	
