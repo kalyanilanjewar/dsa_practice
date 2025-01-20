@@ -20,20 +20,22 @@ class Pair{
 }
 public class MinMaxFinderUsingSorting {
 	
+	// Function to find the minimum and maximum element in an array
 	static Pair getMinMax(int arr[], int sizeOfArray)
 	{
-		Pair minmax = new Pair();
-		Arrays.sort(arr);
-		minmax.minVal = arr[0];
-		minmax.maxVal = arr[sizeOfArray - 1];
+		Pair minmax = new Pair(); //creating an object of class Pair
+		Arrays.sort(arr); // sorting the array in ascending order
+		minmax.minVal = arr[0]; // first element of the array will be the minimum element
+		minmax.maxVal = arr[sizeOfArray - 1]; // last element of the array will be the maximum element
 		return minmax;
 	}
 	
+	//main method is the entry point of the program 
 	public static void main(String[] args)
 	{
 		int arr[] = { 1000, 11, 445, 1, 330, 3000 };
 		int sizeOfArray = arr.length;
-		Pair minmax = getMinMax(arr, sizeOfArray);
+		Pair minmax = getMinMax(arr, sizeOfArray); //calling the function getMinMax and storing the returned value in min and max
 		System.out.println("Minimum element is: "+minmax.minVal);
 		System.out.println("Maximum element is: "+minmax.maxVal);
 	}
