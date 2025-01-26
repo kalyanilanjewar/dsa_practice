@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class MergeOverlappingIntervals {
+public class MergeOverlappingIntervalsByAllPossibleOverlaps {
 	
 	static List<int[]> mergeOverlap(int[][] arr) {
         int n = arr.length;
