@@ -1,4 +1,16 @@
 //Write a java code to merge overlapping intervals by checking overlapping intervals only
+
+/*steps for merge overlapping intervals
+ 
+step1- Given set of overlapping intervals.
+step2- Sort the intervlas by their starting time.
+step3- add the first interval(I2) to result.
+step4- since I3 overlaps with last added interval, merge them by updating ending time of last interval with max ending time.
+step5- since I4 overlaps with last added interval, so merge them by updating ending time of last interval with max ending time.
+step6- As I1 does not overlap with last added interval, so add it to result.
+step7- we got all merged intervals in result.
+
+*/
 package arrays;
 
 import java.util.ArrayList;
