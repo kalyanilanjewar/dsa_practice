@@ -44,7 +44,7 @@ public class MergeOverlappingIntervalsByOverlappingIntervalsOnly {
 			}
 		}
 		
-		return res;
+		return res; // return the list of merged intervals
 	}
 	
 	//Main function to test the code
