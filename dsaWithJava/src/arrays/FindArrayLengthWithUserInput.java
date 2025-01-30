@@ -1,3 +1,4 @@
+// Java program to find the length of the array with user input
 package arrays;
 
 import java.util.Scanner;
