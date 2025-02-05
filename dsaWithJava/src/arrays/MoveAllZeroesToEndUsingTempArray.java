@@ -1,3 +1,13 @@
+// Java Program to move all zeros to end using temporary array
+
+/*
+Working of the code:
+step1- Create temproary array of the same size as original array.
+step2- copy all non-zero elements from original array to temporary array.
+step3- fill all the remaining positions in temporary array with zero.
+step4- copy all elements from temporary array back to the original array.
+*/
+
 package arrays;
 
 public class MoveAllZeroesToEndUsingTempArray {
